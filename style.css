@@ -314,7 +314,6 @@ body{
   }
     
 @media  (max-width:400px){
-    
   .navbar navbar-dark bg-dark fixed top{
     width:20rem;
   }
@@ -324,13 +323,13 @@ body{
   }
    .photo-p1{
     position: absolute;
-    right: 46.125rem;
+    right: 12.125rem;
     border-radius: 2rem;
     width:10rem;
     height:10rem;
   } 
   .about{
-    width:23rem;
+    width:17rem;
     height:27rem;
     font-size: 80%;
     overflow:hidden;
@@ -352,7 +351,7 @@ body{
    }
    .skill-enclose{
     margin-top:3rem;
-    width:50rem;
+    width:30rem;
     height:56rem;
    }
    .cll{
@@ -361,19 +360,19 @@ body{
     margin-left: 1rem;
    }
    .para-act{
-    width: 51rem;
+    width: 30rem;
     height: 29rem;
     margin-left: 0rem;
    }
    .edu-enclose{
-    width:100rem;
+    width:30rem;
     margin-top:6rem;
    }
    .education{
-    width:28rem;
+    width:30rem;
    }
    .footer{
-    width:28rem;
+    width:30rem;
     height:39rem;
    }
    .form form{
@@ -383,16 +382,16 @@ body{
    }
   }
    @media  (max-width:900px){
-    .navbar navbar-dark bg-dark fixed top{
+    /* .navbar navbar-dark bg-dark fixed top{
       width:20rem;
-    }
+    } */
     .upper-half{
       width:30rem;
       height:111rem;
     }
      .photo-p1{
       position: absolute;
-      right: 46.125rem;
+      right: 12.125rem;
       border-radius: 2rem;
       width:10rem;
       height:10rem;
@@ -407,11 +406,11 @@ body{
       margin-top:-30rem;
     }
     .contact-c1 {
-      right: 35.75rem;
-      position: absolute;
-      top: 39.7rem;
-      display: flex;
-      flex-direction: row;
+      right: 3.75rem;
+    position: absolute;
+    top: 38.7rem;
+    display: flex;
+    flex-direction: row;
      }
      .skills{
       margin-top:3rem;
@@ -420,34 +419,40 @@ body{
      }
      .skill-enclose{
       margin-top:3rem;
-      width:50rem;
+      width:30rem;
       height:56rem;
      }
      .cll{
       margin-top: -19.5rem;
-      width: 25rem;
-      margin-left: 1rem;
+      width: 27rem;
+      margin-left: 1.4rem;
      }
      .para-act{
-      width: 51rem;
+      width: 30rem;
       height: 29rem;
       margin-left: 0rem;
      }
      .edu-enclose{
-      width:100rem;
+      width:30rem;
       margin-top:6rem;
      }
      .education{
-      width:28rem;
+      width:30rem;
+      margin-left: 1rem;
      }
      .footer{
-      width:28rem;
+      width:30rem;
       height:39rem;
      }
      .form form{
       width: 17rem;
       margin-top: 4rem;
-      margin-left: 3rem;
+      margin-left: 6rem;
+     }
+     .honeclass{
+      padding:2%;
+      margin-top: 1rem;
+      text-align: center;
      }
 
   }
