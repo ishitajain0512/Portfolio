@@ -245,82 +245,141 @@ body{
 }
 
 @media (max-width:700px){
-    .upper-half{
-      width:100rem;
-    }
-    .photo-p1{
-      position: absolute;
-      right: -40.875rem;
-    }
-    .contact-c1 {
-      right: -25.25rem;
-      position: absolute;
-      top: 16.7rem;
-      display: flex;
-      flex-direction: column;
-     }
-    .about{
-      width:45rem;
-      height:25rem;
-      font-size: 90%;
-      overflow:hidden;
-      display: block;
-      margin-left:13rem;
-    }
-    .skill-enclose{
-      width:100rem;
-     }
-     .cll{
-      margin-top: -13.5rem;
-      width:51rem;
-     }
-     .para-act{
-      width:40rem;
-     }
-     .edu-enclose{
-      width:100rem;
-     }
-     .footer{
-      width:100rem;
-     }
+  .navbar navbar-dark bg-dark fixed top{
+    width:20rem;
+  }
+  .upper-half{
+    width:30rem;
+    height:111rem;
+  }
+   .photo-p1{
+    position: absolute;
+    right: 46.125rem;
+    border-radius: 2rem;
+    width:10rem;
+    height:10rem;
+  } 
+  .about{
+    width:23rem;
+    height:27rem;
+    font-size: 80%;
+    overflow:hidden;
+    display: block;
+    margin-left:3rem;
+    margin-top:-30rem;
+  }
+  .contact-c1 {
+    right: 35.75rem;
+    position: absolute;
+    top: 39.7rem;
+    display: flex;
+    flex-direction: row;
+   }
+   .skills{
+    margin-top:3rem;
+    margin-left:1rem;
+    width:28rem;
+   }
+   .skill-enclose{
+    margin-top:3rem;
+    width:50rem;
+    height:56rem;
+   }
+   .cll{
+    margin-top: -19.5rem;
+    width: 25rem;
+    margin-left: 1rem;
+   }
+   .para-act{
+    width: 51rem;
+    height: 29rem;
+    margin-left: 0rem;
+   }
+   .edu-enclose{
+    width:100rem;
+    margin-top:6rem;
+   }
+   .education{
+    width:28rem;
+   }
+   .footer{
+    width:28rem;
+    height:39rem;
+   }
+   .form form{
+    width: 17rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+   }
   }
     
 @media  (max-width:400px){
     
-  .photo-p1{
-    position: absolute;
-    right: -57.875rem;
+  .navbar navbar-dark bg-dark fixed top{
+    width:20rem;
   }
-  .about{
+  .upper-half{
     width:30rem;
-    height:25rem;
+    height:111rem;
+  }
+   .photo-p1{
+    position: absolute;
+    right: 46.125rem;
+    border-radius: 2rem;
+    width:10rem;
+    height:10rem;
+  } 
+  .about{
+    width:23rem;
+    height:27rem;
     font-size: 80%;
     overflow:hidden;
     display: block;
-    margin-left:13rem;
+    margin-left:3rem;
+    margin-top:-30rem;
   }
   .contact-c1 {
-    right: -21.25rem;
+    right: 35.75rem;
     position: absolute;
-    top: 16.7rem;
+    top: 39.7rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+   }
+   .skills{
+    margin-top:3rem;
+    margin-left:1rem;
+    width:28rem;
    }
    .skill-enclose{
-    width:100rem;
+    margin-top:3rem;
+    width:50rem;
+    height:56rem;
    }
    .cll{
-    margin-top: -13.5rem;
-    width:40rem;
+    margin-top: -19.5rem;
+    width: 25rem;
+    margin-left: 1rem;
    }
    .para-act{
-    width:40rem;
+    width: 51rem;
+    height: 29rem;
+    margin-left: 0rem;
    }
    .edu-enclose{
     width:100rem;
+    margin-top:6rem;
+   }
+   .education{
+    width:28rem;
    }
    .footer{
-    width:100rem;
+    width:28rem;
+    height:39rem;
+   }
+   .form form{
+    width: 17rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
    }
   }
    @media  (max-width:900px){
